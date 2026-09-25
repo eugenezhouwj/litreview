@@ -195,4 +195,5 @@ Record what you learn from each run, and edit the prompts above to match.
 
 | Date | Question | Track | What worked | What went wrong | Prompt change made |
 |---|---|---|---|---|---|
+| 2026-09-25 | Discount rates across contexts (`reviews/discount-rates.md`) | Econ | Scope questions reshaped the review, e.g. splitting real estate by asset type. Parallel agents per context and a fresh referee pass caught 25 issues (wrong schedules, mislabelled rates, lost UNVERIFIED flags) | Proxy blocked primary-source fetches, so figures rest on search extracts. Summary tables dropped verification flags. One agent ran out of its search budget | Carry † flags into summaries. Keep a notation box for multi-context reviews. Check source access before the run; upload key PDFs where possible |
 | | | | | | |
