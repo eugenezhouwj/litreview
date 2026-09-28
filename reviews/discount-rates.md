@@ -1,6 +1,6 @@
 # Discount rates across contexts: meanings, frameworks and empirical ranges
 
-*Literature review. Draft v2 (after referee pass), 25 Sep 2026. Purpose: general understanding. Scope: global, with a Singapore emphasis.*
+*Literature review. Draft v3 (summary table with citations), 28 Sep 2026. Purpose: general understanding. Scope: global, with a Singapore emphasis.*
 
 > **How to read the evidence.** During this research the network proxy blocked direct access
 > to most primary pages. Figures were checked against search-engine extracts of the cited
@@ -8,7 +8,7 @@
 > marked **UNVERIFIED**. Confirm headline numbers against the original document before
 > quoting them; the priority list is in the [verification checklist](#9-verification-checklist).
 > Rates are **% per year** throughout. They are **real** unless marked **(nominal)**.
-> **†** in the summary tables means the figure is UNVERIFIED or comes from a secondary or aggregator source (see the section tables).
+> **†** in the summary tables (§1, §7) means the figure is UNVERIFIED or comes from a secondary or aggregator source (see the section tables).
 >
 > **Notation.**
 > - **ρ**: pure rate of time preference. **δ** is used only in the Ramsey rule, as in each source.
@@ -17,23 +17,38 @@
 
 ---
 
-## 1. Summary: one term, six different things
+## 1. Summary: one term, many different things
 
 "Discount rate" always means the rate used to convert future values into present
 values. But **what is being discounted, whose preferences or opportunity costs apply, and
 whether risk is included** differ between fields. Numbers from different rows of the table below are **not
 comparable** without adjusting for these differences.
 
-| Context | What "discount rate" means there | Typical range found | Singapore reference points |
-|---|---|---|---|
-| **Public policy / cost-benefit analysis** | Social discount rate: society's trade-off between present and future wellbeing (Ramsey rule), or the opportunity cost of displaced capital | Time-preference based **~1.5–3.5%**; risk-adjusted **~2.8–4%**; opportunity-cost based **~7–8%** in advanced economies (8–12% historically in some developing countries); **~2%** median expert view for climate | No published general public-sector cost-benefit rate found. ACE uses **3%**, but only for health technology assessment. Other benchmarks: NIR expected real return, GIC 20-yr real return, SINGA borrowing cost, CPF 2.5%/4% floors (nominal) (§7) |
-| **Individual time preference** | A person's impatience, i.e. the return they require to wait. Often hyperbolic or present-biased | **Negative to effectively infinite**; meta-analytic mean ~**33%** (experiments); lifecycle ~**4%** long-run, ~**40%** short-run; implicit durable-goods rates ~**15–20%+**, much higher for low-income households | No verified Singapore estimates from experiments (housing market evidence is in the real estate row, not here) |
-| **Corporate finance / asset pricing** | Required or expected return on a risky claim: cost of capital, WACC, hurdle rate | ERP **~4–5.5%**; median US firm WACC **~7.8% (nominal, USD, Jan 2026)**; hurdle rates **~12–16% (nominal)** | Total ERP ≈ mature-market ERP **~4.2–4.4% (2026, USD basis)†**; 10-yr SGS yield **~2.4–2.5% (nominal, Sep 2026)** |
-| **Real estate** | Target IRR in a property discounted cash flow (DCF) valuation; related to cap rate ≈ discount rate − growth; long-horizon rates inferred from leasehold vs freehold prices | Housing: **<2.6%** for claims 100+ yrs out; ~**7%** *realised* long-run real total return (1870–2015, gross of costs; later work finds it lower); commercial DCF **~6.5–7.3% (nominal)** | Office cap rate **3.15–3.85%**, retail **4.35–6.20%** (Dec 2025); private condo market-revealed rates **~2.5–4%** (to yr 100) falling to **0.5–1.5%** (yr 400)†; Bala's Table implied **~2.9–3.5%†** |
-| **Macroeconomic models** | Discount factor β = 1/(1+ρ): the pure rate of time preference in models; the neutral real rate r\* as the economy's benchmark riskless rate | ρ ≈ **4%** (standard calibration); US r\* **<1%** (HLW, 2025Q4). The TIPS-based >3% includes term and liquidity premia | No published Singapore r\* estimate found |
-| **Monetary policy** | *A different concept:* the rate a central bank charges banks for overnight loans (e.g. the Fed discount window) | Fed primary credit **4.00% (nominal, from 17 Sep 2026)**; ECB marginal lending **2.90%† (from 16 Sep 2026)** | MAS targets the exchange rate, not a policy interest rate; MAS Standing Facility = reference rate ± 50 bp; SORA ~**1.2% (23 Sep 2026)†** |
+- **Citations** follow the format *(first author's surname et al., year)*. Sources with one or two authors are cited by name, e.g. *(Hausman, 1979)*, *(Allcott & Wozny, 2014)*. Official guidance is cited by agency.
+- **Full references and links** are in the [citation key](#11-citation-key-for-the-summary-table).
+- **†** means UNVERIFIED, or from a secondary or aggregator source.
+- **(nominal)** marks nominal rates. All others are real, in % per year.
 
-**Four points apply across all six contexts:**
+| Context | Sub-context | What is being discounted | What the rate means (basis) | Estimates in the literature (citation) | Singapore evidence (citation) |
+|---|---|---|---|---|---|
+| **1. Public policy** | 1a. Project and regulatory appraisal | Net social costs and benefits of public projects and regulations (consumption-equivalent) | **Social discount rate.** Three approaches:<br>(i) social rate of time preference, r = δ + ηg (δ pure time preference, η elasticity of marginal utility, g consumption growth);<br>(ii) opportunity cost of displaced private capital;<br>(iii) risk-free rate plus a risk premium. Real. | • Time-preference based **1.5–3.5%** (HM Treasury, 2026; OMB, 2023; NZ Treasury, 2024; JASPERS, 2021)<br>• Risk-adjusted **2.8–4%** (France Stratégie, 2021; Werkgroep discontovoet, 2025; NOU, 2012)<br>• Opportunity cost **7–8%** in advanced economies (OMB, 2003; OIA, n.d.; TBS, 2022)<br>• **8–12%** in some developing countries (Zhuang et al., 2007)<br>• World Bank rule: 2 × per-capita growth, e.g. 6% at 3% growth (World Bank, 2016)<br>• Critics say 7% overstates the true opportunity cost (Moore et al., 2004) | • **No published general rate found**<br>• Candidate benchmarks (to verify): the Net Investment Returns expected real return, GIC's 20-yr real return, SINGA borrowing cost, CPF floors of 2.5% / 4% (nominal) |
+| | 1b. Climate and intergenerational | Climate damages and benefits over decades to centuries | Social discount rate at very long horizons. Often *declining* because of uncertainty about future growth or rates. Real. | • **1.4%** (Stern, 2006)<br>• **~4.5%** near-term, declining (Barrage & Nordhaus, 2024)<br>• Expert survey: mean **2.27%**, median **2%**, range 0–10% (Drupp et al., 2018)<br>• Economists' survey: mean ~**4%**; schedule 4% → 3% → 2% → 1% → 0% over 300+ yrs (Weitzman, 2001)<br>• US social cost of carbon at **1.5–2.5%**; withdrawn in 2025 (EPA, 2023)<br>• Case for declining rates (Arrow et al., 2013) | None found |
+| | 1c. Health technology assessment | Future health costs and health outcomes (QALYs) | Conventional rate applied to costs and QALYs, sometimes different for each. Real. | • **1.5–5%** across agencies:<br>&nbsp;&nbsp;UK 3.5% (NICE, 2022)<br>&nbsp;&nbsp;US 3% (Sanders et al., 2016)<br>&nbsp;&nbsp;WHO 3% (WHO-CHOICE, n.d.)<br>&nbsp;&nbsp;Canada 1.5% (CADTH, 2017)<br>&nbsp;&nbsp;Netherlands 3% costs / 1.5% outcomes (Zorginstituut, 2024)<br>&nbsp;&nbsp;Australia 5% (PBAC, n.d.)<br>&nbsp;&nbsp;Japan 2% (C2H, n.d.) | **3%** for costs and outcomes (ACE, n.d.)†. Applies to health technology assessment only |
+| **2. Individual time preference** | 2a. Experiments and surveys | Money, or other rewards, received at different dates | Required return to wait, often present-biased (β–δ model). Bundles impatience with utility curvature, credit constraints and trust. | • Range from **negative to effectively infinite** (Frederick et al., 2002)<br>• Mean **~33%** after correcting for publication bias (Matoušek et al., 2022)<br>• **~10%** when utility curvature is modelled vs **~25%** assuming linear utility (Andersen et al., 2008)†<br>• Present-bias β: **0.94** for money (Cheung et al., 2025); **0.89** for effort (Augenblick et al., 2015)<br>• Large differences between and within countries (Falk et al., 2018; Wang et al., 2016) | No verified Singapore estimates from experiments |
+| | 2b. Revealed in saving and borrowing | Future consumption, revealed through wealth and debt choices | Structural time-preference parameters | **~40%** short-run vs **~4.3%** long-run; exponential discounting rejected (Laibson et al., 2007) | None found |
+| | 2c. Implicit rates in durable goods | Future energy or running costs vs upfront price | "Implicit" rate. Also absorbs information gaps, inattention and hidden costs. | • **~20%** on average, up to ~89% for the lowest-income households (Hausman, 1979)<br>• **5% to 300%** across studies (Train, 1985; Schleich et al., 2016)<br>• **Just under 15%** for vehicles (Allcott & Wozny, 2014)<br>• Little undervaluation of fuel costs (Busse et al., 2013) | None found |
+| **3. Corporate finance and asset pricing** | 3a. Equity risk premium | Expected cash flows to equity holders | Extra return required over the risk-free rate | • Historical world premium over bills **~4.7%** (1900–2024) (Dimson et al., 2025)<br>• Implied US premium **4.2–4.4%** (2026) (Damodaran, 2026)<br>• Survey average **5.5%** (Fernandez et al., 2025)<br>• Discount-rate variation explains almost all price-dividend variation (Cochrane, 2011) | **~4.2%**: Aaa rating, so country risk premium = 0 (Damodaran, 2026)†. Measured over USD Treasuries |
+| | 3b. Cost of capital / WACC | A firm's expected project cash flows | Weighted average cost of capital, with equity cost from the CAPM. Nominal. | • Median US firm **7.8%** (nominal)<br>• Middle 80%: **5.3–9.9%** (US), **6.3–11.7%** (global) (Damodaran, 2026)<br>• US regulated utility return on equity **9.7%** (nominal) (S&P Global, 2025)<br>• Equity discount rates vary by horizon (van Binsbergen et al., 2012) | • SP PowerAssets regulated WACC **5.38%**; basis unclear† (EMA, via S&P)<br>• 10-yr SGS **2.4–2.5%** (nominal, Sep 2026)† |
+| | 3c. Hurdle rates in practice | The same project cash flows, as firms actually appraise them | Minimum return management requires. Sits well above WACC. Nominal. | • Median hurdle **12%** vs WACC **9.8%** (Graham & Harvey, 2017)<br>• About **2×** the cost of capital; premium ~6.6 pp (Jagannathan et al., 2016)<br>• Mean **15.7%**; only 0.4 pp pass-through from cost of capital (Gormsen & Huber, 2025) | None found |
+| **4. Real estate** | 4a. Housing | Rents and housing services over the lease or ownership horizon | Required return on housing. Long-horizon rates revealed by leasehold vs freehold prices. Rental yield ≈ discount rate − rent growth. | • **<2.6%** for claims 100+ yrs out (Giglio et al., 2015)<br>• Term structure declines to **2.6%** beyond 100 yrs (Giglio et al., 2021)<br>• *Realised* real total return **~7%** (1870–2015) (Jordà et al., 2019)<br>• Net returns lower once costs and measurement are handled (Chambers et al., 2021; Eichholtz et al., 2021) | • Private condos: **~2.5–4%** to year 100, falling to **0.5–1.5%** by year 400 (Fesselmeyer et al., 2022)†<br>• 99-yr leases **~11.8%** below freehold (Giglio et al., 2015)†<br>• Bala's Table implies **~2.9–3.5%** as a single flat rate (CLC, n.d.; Kwong et al., 2025)†<br>• Private gross rental yield **~3.0%** (Global Property Guide, 2026)†<br>• HDB 4-room gross yield **~6.2%** (hdbinsights.sg, 2026)† |
+| | 4b. Commercial (office, retail, hotel) | Net operating income, usually on 99-yr or shorter leases in Singapore | DCF target return (discount rate) vs cap rate (≈ discount rate − growth). Nominal. | • Cap rates forecast returns for most sectors, but not offices (Plazzi et al., 2010)<br>• Australia: office cap **6.6–7.3%**, discount rate **7.75–7.9%**<br>• Germany: office cap **4.65–5.35%** (CICT, 2025) | • Cap rates: office **3.15–3.85%**, retail **4.35–6.20%**, hotel **4.80%** (CICT, 2025)<br>• DCF discount rates: office **6.50–6.75%**, retail **7.00–7.25%** (CICT, 2024) |
+| | 4c. Industrial and logistics | Rents on short-tenure (20–30-yr) leasehold land | As 4b, plus a premium to recover capital over a wasting lease. Nominal. | • US cap rates track expected returns (Plazzi et al., 2010)<br>• One US industrial asset: **6.25%** cap rate (MIT, 2026)<br>• **Peer-reviewed evidence is thin** | • Gross yields **~4.5–6.5%** (market commentary, 2026)†<br>• Industrial land tenure capped at 30 yrs since 2012 (JTC, 2025)<br>• REIT valuation inputs not yet extracted |
+| **5. Macroeconomics** | 5a. Discount factor β in models | Households' future utility | Pure time preference ρ, where β = 1/(1+ρ). A preference parameter, not a market rate. Real. | • Standard calibration ρ ≈ **4%** (β = 0.99 quarterly)<br>• DSGE prior ≈ **1%/yr** (Smets & Wouters, 2007)<br>• Lifecycle **4–4.5%** (Gourinchas & Parker, 2002)<br>• Heterogeneous β ≈ **2–9%/yr** to match the wealth distribution (Carroll et al., 2017) | None found |
+| | 5b. Neutral real rate r\* | Riskless real returns economy-wide | The equilibrium short real rate at full employment with stable inflation. Unobserved and model-based. Real. | • US **<1%** (2025Q4) (Holston et al., 2023)<br>• Euro area **−0.7%** (HLW) or **0.2–0.8%** (modified HLW) (Bank of Finland, 2024)<br>• Global trend ~2% → peak **~2.5%** (1980) → **~0.5%** (2016) (Del Negro et al., 2019)<br>• Centuries-long decline of 0.6–1.6 bp/yr (Schmelzing, 2020; Rogoff et al., 2024) | None published. Singapore rates are largely imported through interest parity (MAS, n.d.) |
+| | 5c. Long-term government bond yields | Riskless (sovereign) cash flows | Market benchmark for the risk-free rate. Includes term and liquidity premia. | • US 10-yr real (TIPS) **~2.65–2.8%** (Sep 2026) (TIPSWatch, 2026)†<br>• US 10y-10y TIPS forward **>3%** (St. Louis Fed, 2026) | • 10-yr SGS **2.4–2.5%** (nominal); no inflation-linked bonds<br>• Implied real rate **~0.5–1%**, assuming 1.5–2% inflation (Trading Economics, 2026)† |
+| **6. Monetary policy** | 6a. Central bank "discount rate" | Not a discounting of future values: the price of overnight central-bank credit | An administered lending rate, the ceiling of the policy corridor. Nominal. | • US primary credit **4.00%** from 17 Sep 2026 (Federal Reserve, 2026)<br>• ECB marginal lending **2.90%** from 16 Sep 2026 (ECB, 2026)† | • MAS targets the exchange rate (S$NEER), not an interest rate<br>• MAS Standing Facility = reference rate ± 50 bp (MAS, n.d.)<br>• SORA **~1.2%** (23 Sep 2026)† |
+
+**Four points apply across all contexts:**
 1. **Horizon.** Three separate mechanisms point to *declining* long-horizon rates, and they should not be conflated:
    - **uncertainty about future rates or growth**, which lowers certainty-equivalent rates (Weitzman; Arrow et al.);
    - **the term structure of risky-asset discount rates** revealed by leasehold prices (Giglio et al.; Fesselmeyer et al.);
@@ -320,3 +335,96 @@ This review followed `PLAYBOOK.md`:
 - a separate referee pass, which found 25 issues, all addressed in v2.
 
 The main weakness was that the network proxy blocked direct access to primary sources, so all figures rest on search-result extracts. Flags and the checklist above track this.
+
+---
+
+## 11. Citation key for the summary table
+Links are in the section tables (§2–§6) unless given here. † means details still to confirm (see §9).
+
+**Public policy.**
+- ACE (n.d.): Agency for Care Effectiveness, Singapore, methods and process guides.†
+- Arrow et al. (2013): Arrow, K., Cropper, M., Gollier, C., et al., "Determining benefits and costs for future generations", *Science*.
+- Barrage & Nordhaus (2024): "Policies, projections, and the social cost of carbon" (DICE-2023), *PNAS*.
+- CADTH (2017): *Guidelines for the Economic Evaluation of Health Technologies: Canada*, 4th ed.
+- C2H (n.d.): Center for Outcomes Research and Economic Evaluation for Health (Japan), cost-effectiveness guideline.
+- Drupp et al. (2018): Drupp, M., Freeman, M., Groom, B. & Nesje, F., "Discounting disentangled", *AEJ: Economic Policy* 10(4).
+- EPA (2023): US Environmental Protection Agency, report on the social cost of greenhouse gases (withdrawn 2025).
+- France Stratégie (2021): *Révision du taux d'actualisation* (Maurice note).
+- HM Treasury (2026): Green Book supplementary guidance, discounting.
+- JASPERS (2021): *Economic Appraisal Vademecum 2021–2027*.
+- Moore et al. (2004): Moore, M., Boardman, A., Vining, A., Weimer, D. & Greenberg, D., "'Just give me a number!' Practical values for the social discount rate", *JPAM*.
+- NICE (2022): *NICE health technology evaluations: the manual* (PMG36).
+- NOU (2012): NOU 2012:16, *Samfunnsøkonomiske analyser* (Norway).
+- NZ Treasury (2024): discount rates guidance.
+- OIA (n.d.): Office of Impact Analysis (Australia), cost-benefit analysis guidance note.
+- OMB (2003): Circular A-4 (reinstated 2025).
+- OMB (2023): Circular A-4 revision and appendix (rescinded 2025).
+- PBAC (n.d.): Pharmaceutical Benefits Advisory Committee Guidelines, section 3A.1.
+- Sanders et al. (2016): Sanders, G., Neumann, P., Basu, A., et al., "Recommendations for conduct, methodological practices, and reporting of cost-effectiveness analyses: Second Panel on Cost-Effectiveness in Health and Medicine", *JAMA*.
+- Stern (2006): *The Economics of Climate Change: The Stern Review*.
+- TBS (2022): Treasury Board of Canada Secretariat, *Canada's Cost-Benefit Analysis Guide for Regulatory Proposals*.
+- Weitzman (2001): "Gamma discounting", *AER* 91(1).
+- Werkgroep discontovoet (2025): *Rapport werkgroep discontovoet 2025* (Netherlands).
+- WHO-CHOICE (n.d.): WHO guide to cost-effectiveness analysis.
+- World Bank (2016): technical note on discounting costs and benefits in economic analysis.
+- Zhuang et al. (2007): Zhuang, J., Liang, Z., Lin, T. & De Guzman, F., "Theory and practice in the choice of social discount rate for cost-benefit analysis", ADB ERD Working Paper 94.
+- Zorginstituut (2024): *Richtlijn voor het uitvoeren van economische evaluaties in de gezondheidszorg*.
+
+**Individual time preference.**
+- Allcott & Wozny (2014): "Gasoline prices, fuel economy, and the energy paradox", *REStat*.
+- Andersen et al. (2008): Andersen, S., Harrison, G., Lau, M. & Rutström, E., "Eliciting risk and time preferences", *Econometrica*.†
+- Augenblick et al. (2015): Augenblick, N., Niederle, M. & Sprenger, C., "Working over time", *QJE*.
+- Busse et al. (2013): Busse, M., Knittel, C. & Zettelmeyer, F., "Are consumers myopic? Evidence from new and used car purchases", *AER*.
+- Cheung et al. (2025): Cheung, S., Tymula, A. & Wang, X., meta-analysis of present bias (SSRN; earlier IZA DP 14625).
+- Falk et al. (2018): Falk, A., Becker, A., Dohmen, T., et al., "Global evidence on economic preferences", *QJE*.
+- Frederick et al. (2002): Frederick, S., Loewenstein, G. & O'Donoghue, T., "Time discounting and time preference: a critical review", *JEL*.
+- Hausman (1979): "Individual discount rates and the purchase and utilization of energy-using durables", *Bell Journal of Economics*.
+- Laibson et al. (2007): Laibson, D., Repetto, A. & Tobacman, J., "Estimating discount functions with consumption choices over the lifecycle", NBER WP 13314.
+- Matoušek et al. (2022): Matoušek, J., Havránek, T. & Iršová, Z., "Individual discount rates: a meta-analysis of experimental evidence", *Experimental Economics*.
+- Schleich et al. (2016): Schleich, J., Gassmann, X., Faure, C. & Meissner, T., "Making the implicit explicit", *Energy Policy*.
+- Train (1985): "Discount rates in consumers' energy-related decisions: a review of the literature", *Energy*.
+- Wang et al. (2016): Wang, M., Rieger, M. O. & Hens, T., "How time preferences differ: evidence from 53 countries", *Journal of Economic Psychology*.
+
+**Corporate finance and asset pricing.**
+- Cochrane (2011): "Presidential address: discount rates", *Journal of Finance*.
+- Damodaran (2026): implied ERP, country risk and cost-of-capital data updates (Jan and Jul 2026).
+- Dimson et al. (2025): Dimson, E., Marsh, P. & Staunton, M., *UBS Global Investment Returns Yearbook 2025*.
+- EMA, via S&P: Energy Market Authority determination, as reported by S&P Global Ratings.†
+- Fernandez et al. (2025): Fernandez, P., et al., survey of market risk premium and risk-free rate used in 2025.
+- Gormsen & Huber (2025): "Corporate discount rates", *AER* 115(6).
+- Graham & Harvey (2017): Duke CFO Global Business Outlook survey results, as reported by CFO.com.
+- Jagannathan et al. (2016): Jagannathan, R., Matsa, D., Meier, I. & Tarhan, V., "Why do firms use high discount rates?", *JFE*.
+- S&P Global (2025): Regulatory Research Associates, authorised return on equity analysis.
+- van Binsbergen et al. (2012): van Binsbergen, J., Brandt, M. & Koijen, R., "On the timing and pricing of dividends", *AER*.
+
+**Real estate.**
+- Chambers et al. (2021): Chambers, D., Spaenjers, C. & Steiner, E., "The rate of return on real estate: long-run micro-level evidence", *RFS*.
+- CICT (2024, 2025): CapitaLand Integrated Commercial Trust, Annual Reports (valuation notes).
+- CLC (n.d.): Centre for Liveable Cities, paper on Bala's Table.†
+- Eichholtz et al. (2021): Eichholtz, P., Korevaar, M., Lindenthal, T. & Tallec, R., "The total return and risk to residential real estate", *RFS*.
+- Fesselmeyer et al. (2022): Fesselmeyer, E., Liu, H. & Salvo, A., "How do households discount over centuries? Evidence from Singapore's private housing market", reported as *J. Applied Econometrics* (working paper 2016).†
+- Giglio et al. (2015): Giglio, S., Maggiori, M. & Stroebel, J., "Very long-run discount rates", *QJE*.
+- Giglio et al. (2021): Giglio, S., Maggiori, M., Rao, K., Stroebel, J. & Weber, A., "Climate change and long-run discount rates: evidence from real estate", *RFS*.
+- Global Property Guide (2026): Singapore rental yields.† hdbinsights.sg (2026): HDB 4-room rental yields.†
+- Jordà et al. (2019): Jordà, Ò., Knoll, K., Kuvshinov, D., Schularick, M. & Taylor, A., "The rate of return on everything, 1870–2015", *QJE*.
+- JTC (2025): MTI Committee of Supply 2025, enhancements to the industrial land lease framework.
+- Kwong et al. (2025): "Unpacking Singapore's leasehold relativity table", *IRER* 28(3).†
+- Market commentary (2026): propertybro.sg sector yield guide (indicative only).†
+- MIT (2026): Mapletree Industrial Trust filing.
+- Plazzi et al. (2010): Plazzi, A., Torous, W. & Valkanov, R., "Expected returns and expected growth in rents of commercial real estate", *RFS*.
+
+**Macroeconomics and monetary policy.**
+- Bank of Finland (2024): Bank of Finland Bulletin, "Recent insights into r-star".
+- Carroll et al. (2017): Carroll, C., Slacalek, J., Tokuoka, K. & White, M., "The distribution of wealth and the marginal propensity to consume", *Quantitative Economics*.
+- Del Negro et al. (2019): Del Negro, M., Giannone, D., Giannoni, M. & Tambalotti, A., "Global trends in interest rates", *JIE*.
+- ECB (2026): key ECB interest rates, via secondary report.†
+- Federal Reserve (2026): Implementation Note, 16 Sep 2026.
+- Gourinchas & Parker (2002): "Consumption over the life cycle", *Econometrica*.
+- Holston et al. (2023): Holston, K., Laubach, T. & Williams, J., HLW natural-rate model (NY Fed), as reported by the St. Louis Fed (May 2026).
+- MAS (n.d.): Monetary Authority of Singapore, monetary policy framework FAQs; MAS Standing Facility page.
+- Rogoff et al. (2024): Rogoff, K., Rossi, B. & Schmelzing, P., "Long-run trends in long-maturity real rates, 1311–2022", *AER* (NBER WP 30475).
+- Schmelzing (2020): "Eight centuries of global real interest rates, R-G, and the 'suprasecular' decline, 1311–2018", BoE Staff WP 845.
+- Smets & Wouters (2007): "Shocks and frictions in US business cycles", *AER*.
+- St. Louis Fed (2026): "Comparing the FOMC's estimate of r-star with alternative estimates".
+- TIPSWatch (2026); Trading Economics (2026): market data aggregators.†
+
