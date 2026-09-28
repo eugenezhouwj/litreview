@@ -114,7 +114,7 @@ A third group is **risk-adjusted** rates: a risk-free rate plus a project-specif
 | Mean **2.27%**, median **2%**, range 0–10%; over three-quarters of experts accept 2% | Drupp, Freeman, Groom & Nesje, [AEJ: Economic Policy 10(4), 2018](https://www.aeaweb.org/articles?id=10.1257%2Fpol.20160240) | Survey of ~200 experts (197 respondents) |
 | Mean ~**4%** (s.d. ~3%). Implied schedule: **4%** (yrs 1–5), **3%** (6–25), **2%** (26–75), **1%** (76–300), **0%** (300+) | Weitzman, [AER 2001](https://www.aeaweb.org/articles?id=10.1257%2Faer.91.1.260) | 2,160 economists, surveyed in 1990s conditions; gamma discounting. Critique: Freeman & Groom (2015) on disagreement vs uncertainty |
 | 2.5% / **2.0%** / 1.5% (US social cost of carbon 2023; withdrawn 2025) | [CRS IF12916](https://www.congress.gov/crs-product/IF12916) | Estimates withdrawn under EO 14154 |
-| The theoretical case for declining certainty-equivalent rates is compelling | Arrow et al., [Science 2013](https://www.science.org/doi/10.1126/science.1235665); Cropper et al., Science 2014 | Expert panel |
+| The theoretical case for declining certainty-equivalent rates is compelling | Arrow et al., [Science 2013](https://www.science.org/doi/10.1126/science.1235665); Cropper et al., AER: Papers & Proceedings 2014 | Expert panel |
 
 ### 2.3 Health technology assessment
 | Jurisdiction | Rate (costs / outcomes) | Source |
